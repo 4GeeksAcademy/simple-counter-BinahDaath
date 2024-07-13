@@ -25,14 +25,14 @@ function SecondsCounterView(props)
 	count=count.padStart(6,"0")
 	return (
 	<div>
-		<div class="flex w-full h-80 items-center gap-4 justify-center bg-black text-white text-6xl">
-			<div class="col-2"><i class="fa-solid fa-clock"></i></div>
-			<div class="col-1">{count[0]}</div>
-			<div class="col-1">{count[1]}</div>
-			<div class="col-1">{count[2]}</div>
-			<div class="col-1">{count[3]}</div>
-			<div class="col-1">{count[4]}</div>
-			<div class="col-1">{count[5]}</div>
+		<div class="flex w-full h-80 items-center gap-4 justify-center bg-black text-white text-8xl">
+			<div class="bg-neutral-900"><i class="fa-solid fa-clock"></i></div>
+			<div class="bg-neutral-900">{count[0]}</div>
+			<div class="bg-neutral-900">{count[1]}</div>
+			<div class="bg-neutral-900">{count[2]}</div>
+			<div class="bg-neutral-900">{count[3]}</div>
+			<div class="bg-neutral-900">{count[4]}</div>
+			<div class="bg-neutral-900">{count[5]}</div>
 		</div>
 	</div>);
 };
