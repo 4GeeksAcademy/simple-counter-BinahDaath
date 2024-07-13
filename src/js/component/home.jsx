@@ -24,8 +24,8 @@ function SecondsCounterView(props)
 	let count=String(props.seconds)
 	count=count.padStart(6,"0")
 	return (
-	<div calss="container-fluid">
-		<div class="flex-row justify-content-around row bg-dark text-white">
+	<div>
+		<div class="flex w-full h-80 items-center gap-4 justify-center bg-black text-white text-6xl">
 			<div class="col-2"><i class="fa-solid fa-clock"></i></div>
 			<div class="col-1">{count[0]}</div>
 			<div class="col-1">{count[1]}</div>
